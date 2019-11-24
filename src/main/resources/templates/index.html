@@ -21,6 +21,20 @@
         <input name="lastName" placeholder="Weasley" required type="text">
         <input type="submit" value="Send">
     </form>
+    <h3>Create a new School</h3>
+    <form action="/school/create" method="post">
+        <label for="school-name">Name:</label>
+        <input id="school-name" name="name" placeholder="Sky High" required type="text">
+
+        <label for="school-capacity">Capacity:</label>
+        <input id="school-capacity" name="capacity" placeholder="40" required type="number">
+
+        <label for="school-country">Country:</label>
+        <textarea id="school-country" name="country" placeholder="Cloud Sky"></textarea>
+
+        <input type="submit" value="Send">
+    </form>
+
 </section>
 <section>
     <h3>Search School:</h3>
